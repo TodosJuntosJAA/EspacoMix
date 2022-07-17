@@ -1,0 +1,107 @@
+<!--
+    Bem esté site vou desenvolvido pelos os integrantes do gremio 
+    estudantio da Chapa Todos Juntos da Escola Estadual de Ensino 
+    Profissionalizante Joaquim Antonio Albano. 
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"><!--CSS do Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"><!--Importante, faz os icons aparecerem no footrer-->
+        <link rel="stylesheet" href="css/footerindex.css"><!--CSS do footer-->
+        <link rel="stylesheet" href="css/estilobuttonzapinstaface.css"><!--CSS dos Icons das redes sociais-->
+        <link rel="shortcut icon" href="img/android-chrome-192x192.png" type="image/x-icon">
+        <title>Menu</title>
+    </head>
+    <body style="background-color: #DD7E00;">
+        <!--Navbar-->
+            <nav class="navbar navbar-expand-lg bg-dark" style="color: black;">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="index.html" style="font-size: 45px;"><img src="img/logo.png" alt="" srcset="" style="margin-left: 4px;width: 260px;" ></a>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 2%;">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="index.html" style="font-size: 25px;">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" href="mvisita.html" style="font-size: 25px;">Marcar Visita</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <!--Termino do Navbar-->
+     
+        <!--Carousel--->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/img1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    
+                    <!--<div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/aviso3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/aviso4.jpg" class="d-block w-100" alt="...">
+                    </div> -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        <!--Termino do Carousel-->
+
+        <!--Card-->
+            <br>
+            <br>
+            <div class="card text-center" style="margin-left: 50px;margin-right: 50px;">
+                <div class="card-header">
+                    <img src="img/horario.png" class="card-img-top" alt="..." style="width: 150px;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Marque agora sua visita!</h5>
+                    <p class="card-text">ao clicar nests botão vc será redirecionado para uma pagina que nela vc ira varcar sua visita ao espaço!</p>
+                    <a href="mvisita.html"><button type="button w-6 " class="btn btn-primary w-50" style="width: 300px;height: 45px;">Enviar</button></a>
+                </div>          
+            </div>
+            <br>
+            <br>
+        <!--Termino do Card-->
+
+        <!--Footer-->
+            <div style="background-color: black;">
+                <footer>
+                    <div class="footer-content">
+                        <h3 class="titulo">
+                            <img src="img/logo.png" alt="" srcset="" style="margin-left: 4px;width: 260px;" >
+                        </h3>
+                        <div class="subtitulo">
+                            <p style="font-size: 25px;"> <a class="ri-map-pin-2-line" id="localizacao" style="text-decoration: none;color: white;"></a>Rua Desembargador praxedes</p>
+                            <p style="font-size: 25px;"> <a class="ri-phone-fill" id="localizacao" style="text-decoration: none;color: white;"></a> (85) 98876-4948</p>
+                        </div>
+                        <div class="todosicon">
+                            <a class="ri-whatsapp-line icon" id="zap" href="https://wa.me/qr/D5Z5M43METFVG1" ></a>
+                            <a class="ri-instagram-line icon" id="insta" href="https://instagram.com/espacomix_790?igshid=YmMyMTA2M2Y="></a>
+                            <a class="ri-facebook-box-fill icon" id="face" href=""></a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        <!--Termino do Footer-->
+    
+        <!--Script do Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
